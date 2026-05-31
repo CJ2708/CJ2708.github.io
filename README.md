@@ -30,12 +30,15 @@ Layout and styles:
 - `src/styles/global.css` — colors, spacing, typography (theme variables at the top)
 - `src/layouts/Layout.astro` — `<head>`, SEO meta, fonts
 
-## Adding a downloadable resume
+## Resume button
 
-1. Drop your PDF into the `public/` folder, e.g. `public/resume.pdf`.
-2. In `src/data/content.ts`, set `resume: "resume.pdf"` in the `site` object.
+Set `resume` in the `site` object in `src/data/content.ts` to either:
 
-A **Resume** button will automatically appear in the hero.
+- a **full URL** (e.g. a Google Drive link) — used as-is, or
+- a **filename** you drop into `public/` (e.g. `"resume.pdf"`).
+
+A **Resume** button then appears automatically in the hero and contact sections. Leave it
+`""` to hide the button.
 
 ## Deployment
 

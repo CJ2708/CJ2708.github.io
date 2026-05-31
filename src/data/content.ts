@@ -12,8 +12,8 @@ export const site = {
     linkedin: "https://www.linkedin.com/in/chahat-jain-633299228/",
     github: "https://github.com/CJ2708",
   },
-  // Set to a filename you drop into /public (e.g. "resume.pdf") to show a download button.
-  resume: "",
+  // Full URL (e.g. Google Drive) or a filename dropped into /public (e.g. "resume.pdf"). Shows a Resume button when set.
+  resume: "https://drive.google.com/file/d/1LE0zthJ8X1m2JAsAWadL-W_ugd_QLuB2/view?usp=sharing",
 };
 
 export const about = {
@@ -64,8 +64,8 @@ export const aiWork = {
     "Beyond shipping pipelines, I work directly on the data and tooling that shapes AI model behavior.",
   items: [
     {
-      title: "Data annotation & evaluation",
-      body: "Hands-on annotation, ranking, and evaluation of model outputs for training-data quality — rubric design, comparison tasks, and quality control that feed directly into model improvement.",
+      title: "Data annotation engineering (contract)",
+      body: "Worked as a contract software engineer on data annotation tasks — building and refining the tooling, workflows, and quality checks that turn raw data into high-quality labeled datasets for LLM training and evaluation.",
     },
     {
       title: "Agent skill packages & workflows",
@@ -98,13 +98,6 @@ export const projects = [
     description:
       "Full-stack placement-analytics platform for 500+ students with a RESTful API backend; built interactive dashboards across 50+ companies and reduced page load ~35% via caching and modular service architecture. Top 5 — IIT(ISM) Coding Contest.",
     stack: ["React.js", "Node.js", "REST API", "Sanity", "JavaScript"],
-    link: "https://github.com/CJ2708",
-  },
-  {
-    name: "Options Pricing & Greeks Engine",
-    description:
-      "Black-Scholes closed-form and Monte Carlo pricers for European and Asian options with antithetic and control variates; reduced Monte Carlo standard error ~60% at fixed path count and benchmarked pricing error to <0.5% across strikes.",
-    stack: ["Python", "NumPy", "SciPy", "Monte Carlo", "Black-Scholes"],
     link: "https://github.com/CJ2708",
   },
 ];
