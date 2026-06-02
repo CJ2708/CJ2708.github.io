@@ -105,12 +105,12 @@ export const projects = [
     link: "https://github.com/CJ2708/wikisearch",
   },
   {
-    name: "EmotionLens — Sentiment Analysis",
-    context: "Personal project · NLP",
+    name: "ApplyEngine — AI Job-Application Engine",
+    context: "Personal project · Full-stack + AI",
     description:
-      "NLP text classifier trained on 10,000+ tweets using BERT across 5+ model configurations; achieved 77.67% accuracy, outperforming a Naive Bayes baseline by ~12% through feature engineering and Information Retrieval techniques.",
-    stack: ["Python", "BERT", "NLP", "Scikit-learn", "TF-IDF", "Pandas"],
-    link: "https://github.com/CJ2708",
+      "A full-stack job-application accelerator: aggregates roles from real job-board APIs (Greenhouse, Lever, Ashby, Adzuna, Arbeitnow), then uses Claude to rank fit, tailor resumes and cover letters, and draft personalized outreach. Discovers hiring contacts from compliant sources, runs concurrent Playwright-assisted form-filling (review-first, with a learning autofill that remembers unknown fields), and parses visa-sponsorship signals to surface sponsoring roles first — all from a local dashboard.",
+    stack: ["Node.js", "Express", "Claude API", "Playwright", "SQLite", "React", "Tailwind"],
+    link: "https://github.com/CJ2708/JobApplyAutomation",
   },
   {
     name: "Vessel Vision — Object Detection",
@@ -154,6 +154,7 @@ export const skills = [
       "Generative AI",
       "LLM Agents",
       "Agentic AI",
+      "Claude API",
       "LLM Evaluation",
       "Deep Learning",
       "NLP",
@@ -175,6 +176,7 @@ export const skills = [
       "MongoDB",
       "MVC Architecture",
       "Query Optimization",
+      "Playwright",
       "React.js",
       "Git",
       "Postman",
