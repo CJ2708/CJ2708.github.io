@@ -89,6 +89,14 @@ export const projects = [
     link: "https://www.linkedin.com/in/chahat-jain-633299228/",
   },
   {
+    name: "Expense Tracker — Full-Stack Backend",
+    context: "Barclays UK · Internship",
+    description:
+      "Full-stack expense tracker built during a platform-services internship at Barclays. Engineered the Spring Boot + REST backend with MVC architecture, cutting backend latency ~30% via query optimization and improving retrieval ~25% across 6+ relational schemas. Added Apache Kafka producer-consumer pipelines for async transactions and shipped HELM CI/CD across 3 environments, cutting deployment overhead 40%.",
+    stack: ["Java", "Spring Boot", "REST API", "Apache Kafka", "HELM CI/CD", "SQL"],
+    link: "https://www.linkedin.com/in/chahat-jain-633299228/",
+  },
+  {
     name: "EmotionLens — Sentiment Analysis",
     context: "Personal project · NLP",
     description:
