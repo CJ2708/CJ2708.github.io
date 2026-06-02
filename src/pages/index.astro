@@ -139,10 +139,13 @@ const navItems = [
       <div class="container reveal">
         <h2 class="section-title">Projects</h2>
         <div class="proj-grid">
-          {projects.map((proj) => (
-            <article class="proj">
+          {projects.map((proj, i) => (
+            <article class:list={["proj", { featured: i === 0 }]}>
               <div class="proj-head">
-                <h3>{proj.name}</h3>
+                <div class="proj-titles">
+                  {proj.context && <span class="proj-context">{proj.context}</span>}
+                  <h3>{proj.name}</h3>
+                </div>
                 <a class="proj-link" href={proj.link} target="_blank" rel="noopener" aria-label={`Open ${proj.name}`}>
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
                 </a>

@@ -81,7 +81,16 @@ export const aiWork = {
 
 export const projects = [
   {
+    name: "Multi-Agent Orchestrator (Supervisor)",
+    context: "ZS Associates · 2025–present",
+    description:
+      "Building the agentic backbone of a production system that autonomously turns raw meeting transcripts into structured artifacts — BRDs, DDL/DML, and ETL — already cutting cycle time ~70% and eliminating 60%+ manual effort. Designing and prototyping a supervisor orchestrator that decomposes goals, routes subtasks to specialized agents, and enforces human-in-the-loop checkpoints — paired with a growing library of reusable skill packages (tools + procedures agents load on demand) for a modular, extensible architecture.",
+    stack: ["Claude AI", "AWS AgentCore", "LangGraph", "Python", "DynamoDB", "Amazon S3"],
+    link: "https://www.linkedin.com/in/chahat-jain-633299228/",
+  },
+  {
     name: "EmotionLens — Sentiment Analysis",
+    context: "Personal project · NLP",
     description:
       "NLP text classifier trained on 10,000+ tweets using BERT across 5+ model configurations; achieved 77.67% accuracy, outperforming a Naive Bayes baseline by ~12% through feature engineering and Information Retrieval techniques.",
     stack: ["Python", "BERT", "NLP", "Scikit-learn", "TF-IDF", "Pandas"],
@@ -89,6 +98,7 @@ export const projects = [
   },
   {
     name: "Vessel Vision — Object Detection",
+    context: "Personal project · Computer Vision",
     description:
       "End-to-end computer-vision segmentation pipeline over 1,000+ images across 4+ architectures; reached 49.4% Average Precision and cut relative error rate by 16% via ensemble inference and rigorous evaluation.",
     stack: ["Python", "PyTorch", "MMDet", "OpenCV", "Deep Learning"],
@@ -96,6 +106,7 @@ export const projects = [
   },
   {
     name: "Placementor — Analytics Platform",
+    context: "Top 5 · IIT(ISM) Coding Contest",
     description:
       "Full-stack placement-analytics platform for 500+ students with a RESTful API backend; built interactive dashboards across 50+ companies and reduced page load ~35% via caching and modular service architecture. Top 5 — IIT(ISM) Coding Contest.",
     stack: ["React.js", "Node.js", "REST API", "Sanity", "JavaScript"],

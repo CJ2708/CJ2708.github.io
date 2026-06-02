@@ -346,6 +346,24 @@ section.alt { background: var(--bg-alt); }
 }
 .proj-link:hover { color: var(--accent); transform: translate(2px, -2px); }
 .proj-link svg { width: 19px; height: 19px; }
+.proj-titles { display: flex; flex-direction: column; gap: 6px; }
+.proj-titles h3 { margin-bottom: 0; }
+.proj-context {
+  font-family: var(--font);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  font-weight: 700;
+  color: var(--accent);
+}
+.proj.featured {
+  grid-column: 1 / -1;
+  border-color: #e3c3a3;
+  box-shadow: var(--shadow-md);
+  background: linear-gradient(180deg, #fdf2e6 0%, var(--bg-card) 58%);
+}
+.proj.featured h3 { font-size: 1.45rem; }
+.proj.featured .proj-context { color: var(--accent-deep); }
 
 /* ---------- Skills ---------- */
 .skills-grid {
