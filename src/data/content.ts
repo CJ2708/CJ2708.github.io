@@ -34,16 +34,17 @@ export const about = {
 export const experience = [
   {
     company: "ZS Associates",
-    role: "Data Engineer",
+    role: "Data Engineer — Agentic AI & Data Platforms",
     location: "India",
     period: "Jun 2025 — Present",
     points: [
-      "Architected a scalable multi-agent Claude AI pipeline on AWS AgentCore that processes meeting transcripts through human-in-the-loop checkpoints into structured artifacts — auto-generating DDL/DML, Data Quality scripts, and end-to-end ETL workflows on a versioned Amazon S3 layer, eliminating 60%+ manual effort and cutting cycle time ~70%.",
+      "Design, build, and continually evolve production AI agents — multi-agent orchestration on AWS AgentCore with tool use, state management, human-in-the-loop checkpoints, and evaluation loops — that autonomously turn raw meeting transcripts into structured artifacts (DDL/DML, Data Quality scripts, end-to-end ETL) on a versioned Amazon S3 layer, cutting cycle time ~70% and eliminating 60%+ manual effort.",
+      "Built natural-language data exploration and analytics on Databricks (including Genie Space), letting stakeholders query enterprise data conversationally and accelerating reporting.",
       "Cut end-to-end pipeline latency from ~7 min to under 3 min (~57%) via ThreadPoolExecutor-based parallel retrieval, MySQL connection pooling, and vectorized I/O; debugged production issues across module-load ordering, IAM policies, and SigV4-authenticated service calls.",
       "Designed an enterprise Data Quality & Governance framework for a Fortune 500 pharma client spanning 12+ DQ dimensions across 5+ data domains; the architecture was adopted as the official client reference standard, reducing onboarding ambiguity ~45%.",
       "Built Python transformation engines over 100K+ row enterprise datasets using openpyxl and SHA-256 surrogate keys with NULL-collision-safe concatenation; validated LLM-generated JSON artifacts against source data to catch type-inference and template-expansion bugs.",
     ],
-    stack: ["Python", "AWS AgentCore", "Amazon S3", "Claude AI", "Databricks", "SQL", "ETL"],
+    stack: ["Python", "Agentic AI", "AWS AgentCore", "Claude AI", "Databricks (Genie Space)", "Amazon S3", "SQL", "ETL"],
   },
   {
     company: "Barclays UK",
