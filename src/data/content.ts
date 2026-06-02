@@ -97,6 +97,14 @@ export const projects = [
     link: "https://www.linkedin.com/in/chahat-jain-633299228/",
   },
   {
+    name: "WikiSearch — Hybrid Retrieval + RAG Engine",
+    context: "Personal project · LLM / Search",
+    description:
+      "A question-answering search engine over Wikipedia that returns grounded, citation-backed answers. Pairs lexical BM25 with semantic embeddings — fused via Reciprocal Rank Fusion — alongside multi-query expansion for high-recall retrieval, then generates cited answers through a pluggable LLM backend (local Ollama in development, hosted Groq 70B in production). Built on a FastAPI service with a lightweight web UI, deployed live on Hugging Face Spaces, and hardened with retry/backoff for resilience against upstream API rate limits.",
+    stack: ["Python", "FastAPI", "RAG", "BM25", "Embeddings", "Groq", "Hugging Face"],
+    link: "https://github.com/CJ2708/wikisearch",
+  },
+  {
     name: "EmotionLens — Sentiment Analysis",
     context: "Personal project · NLP",
     description:
