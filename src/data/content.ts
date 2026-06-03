@@ -2,9 +2,9 @@
 
 export const site = {
   name: "Chahat Jain",
-  role: "Software Engineer",
+  role: "Software Engineer — Backend, Full-Stack & AI Agents",
   tagline:
-    "I build full-stack products and agentic LLM/AI pipelines — turning ambiguous requirements into reliable, observable systems.",
+    "I've shipped backend services, full-stack products, and production AI agents — turning ambiguous requirements into reliable, observable systems.",
   location: "India",
   email: "chahatjain2027@gmail.com",
   links: {
@@ -18,7 +18,7 @@ export const site = {
 export const about = {
   heading: "About",
   paragraphs: [
-    "I'm a software engineer with 1+ year of production experience — building full-stack systems, architecting agentic LLM/AI pipelines, designing ETL infrastructure, and standing up enterprise Data Quality & Governance frameworks. I like the messy middle of engineering — taking vague requirements and turning them into scalable, auditable systems that teams actually trust.",
+    "I'm a software engineer with 1+ year of production experience spanning backend services, full-stack products, and AI agents — architecting agentic LLM/AI pipelines, designing ETL infrastructure, and standing up enterprise Data Quality & Governance frameworks. I like the messy middle of engineering — taking vague requirements and turning them into scalable, auditable systems that teams actually trust.",
     "At ZS Associates I build multi-agent pipelines on AWS with human-in-the-loop checkpoints, and I led a Data Quality framework adopted as the official reference standard for a Fortune 500 pharma client. I'm a CS graduate from IIT Dhanbad (AIR 2419 in JEE Mains, top 0.16% of 1.5M candidates).",
     "Lately I've been working on LLM evaluation, agent tooling, and data-quality for model training — areas where rigorous data work directly shapes model behavior.",
   ],
